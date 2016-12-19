@@ -1,0 +1,89 @@
+
+h1{
+	text-align: center;
+	font-size: 40px;
+	color:#660000;
+
+}
+body{
+	background-color: #FFE4C4;
+	font-family:Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+div{
+	position: relative;
+	height:200px;
+	padding-right:2px;
+	padding-left: 2px;
+	margin-top: 0px;
+    float: left;
+    width: 100%;
+}
+@media(min-width: 992px){
+	.col-lg-3{
+		width: 33.33%;
+	}
+	div{
+		float: left;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+.col-md-2{
+	width:50%;
+	
+}
+.col-md-1{
+	width:100%;
+}
+div{
+	float: left;
+}
+}
+#lassi{
+	background-color: #ccffe6;
+	width: 20%;
+	position: relative;
+	left:80%;
+	top: 0%;
+	text-align: center;
+	border: solid 1px black;
+	margin-top: 0px;
+	
+	
+	
+}
+#samosa{
+	background-color: #bfff80;
+     width: 20%;
+     position: relative;
+     left: 80%;
+     top: 0%;
+     text-align: center;
+     border: solid 1px black;
+     margin-top: 0px;
+
+}
+#chappati{
+	background-color: #ffe6ec;
+	width: 20%;
+	position: relative;
+	left:80%;
+	top:0%;
+	text-align: center;
+	border:solid 1px black;
+	margin-top: 0px;
+}
+.first{
+	box-sizing: border-box;
+	border: solid 1px black;
+	background-color: #ffd480;
+}
+.second{
+	box-sizing: border-box;
+	background-color: #ffff99;
+	border: solid 1px black;
+}
+.third{
+	box-sizing: border-box;
+	background-color: #ffd9b3;
+	border: solid 1px black;
+}
